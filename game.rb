@@ -13,13 +13,6 @@ class Game
   def start()
     question = Question.new()
 
-    # if !question.ask
-    #     puts @p1_lives
-    #     @p1_lives -= 1
-    #     puts p1_lives      
-    #     puts 'your dead'
-    # end
-
     while @p1_lives != 0 && @p2_lives != 0 do
 
       # Ask Question

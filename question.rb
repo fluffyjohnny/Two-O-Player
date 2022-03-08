@@ -1,9 +1,4 @@
 class Question
-  # attr_accessor :turn 
-
-  # def initialize(turn)
-  #     @turn = turn
-  # end
 
   def ask(turn)
       num1 = rand(1..20)
